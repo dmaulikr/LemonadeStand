@@ -13,6 +13,10 @@
 		DC4734D61B2C202300447B74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4734D51B2C202300447B74 /* Images.xcassets */; };
 		DC4734D91B2C202300447B74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC4734D71B2C202300447B74 /* LaunchScreen.xib */; };
 		DC4734E51B2C202300447B74 /* LemonStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4734E41B2C202300447B74 /* LemonStandTests.swift */; };
+		DC4734EF1B2C297300447B74 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4734EE1B2C297300447B74 /* Inventory.swift */; };
+		DC4734F31B2C2C6300447B74 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4734F21B2C2C6300447B74 /* Helpers.swift */; };
+		DC4734F51B2C553800447B74 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4734F41B2C553800447B74 /* Customer.swift */; };
+		DC4735351B2C9D9B00447B74 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4735341B2C9D9B00447B74 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		DC4734DE1B2C202300447B74 /* LemonStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4734E31B2C202300447B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4734E41B2C202300447B74 /* LemonStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonStandTests.swift; sourceTree = "<group>"; };
+		DC4734EE1B2C297300447B74 /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
+		DC4734F21B2C2C6300447B74 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		DC4734F41B2C553800447B74 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		DC4735341B2C9D9B00447B74 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 			children = (
 				DC4734CE1B2C202300447B74 /* AppDelegate.swift */,
 				DC4734D01B2C202300447B74 /* ViewController.swift */,
+				DC4734F41B2C553800447B74 /* Customer.swift */,
+				DC4734F21B2C2C6300447B74 /* Helpers.swift */,
+				DC4734EE1B2C297300447B74 /* Inventory.swift */,
+				DC4735341B2C9D9B00447B74 /* Product.swift */,
 				DC4734D21B2C202300447B74 /* Main.storyboard */,
 				DC4734D51B2C202300447B74 /* Images.xcassets */,
 				DC4734D71B2C202300447B74 /* LaunchScreen.xib */,
@@ -161,6 +173,7 @@
 				TargetAttributes = {
 					DC4734C81B2C202300447B74 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = UDYJVE7S3W;
 					};
 					DC4734DD1B2C202300447B74 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -212,7 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4734EF1B2C297300447B74 /* Inventory.swift in Sources */,
 				DC4734D11B2C202300447B74 /* ViewController.swift in Sources */,
+				DC4734F51B2C553800447B74 /* Customer.swift in Sources */,
+				DC4735351B2C9D9B00447B74 /* Product.swift in Sources */,
+				DC4734F31B2C2C6300447B74 /* Helpers.swift in Sources */,
 				DC4734CF1B2C202300447B74 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LemonStand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LemonStand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +430,7 @@
 				DC4734EA1B2C202300447B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC4734EB1B2C202300447B74 /* Build configuration list for PBXNativeTarget "LemonStandTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +439,7 @@
 				DC4734ED1B2C202300447B74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
