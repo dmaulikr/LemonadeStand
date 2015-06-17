@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -10,23 +11,29 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LSlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Rzx-gW-iwT">
+                    <rect key="frame" x="20" y="145" width="440" height="190"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Rzx-gW-iwT" secondAttribute="height" multiplier="441:191" id="FcF-3E-3ff"/>
+                    </constraints>
+                </imageView>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2015 Mattias Lundblad. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
-                    <rect key="frame" x="20" y="439" width="441" height="21"/>
+                    <rect key="frame" x="40" y="419" width="400" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="LSlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Rzx-gW-iwT">
-                    <rect key="frame" x="20" y="144" width="441" height="191"/>
-                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="Rzx-gW-iwT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="27U-iG-g0k"/>
-                <constraint firstItem="Rzx-gW-iwT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="L3b-5C-KiD"/>
-                <constraint firstItem="Rzx-gW-iwT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Nta-ss-aXL"/>
-                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="fDR-Y5-gYe"/>
-                <constraint firstItem="Rzx-gW-iwT" firstAttribute="leading" secondItem="8ie-xW-0ye" secondAttribute="leading" id="tGF-GZ-5Xh"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="0Pe-dg-VcK"/>
+                <constraint firstAttribute="trailing" secondItem="8ie-xW-0ye" secondAttribute="trailing" constant="40" id="1gy-Rv-lIN"/>
+                <constraint firstItem="Rzx-gW-iwT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4qb-jZ-4AN"/>
+                <constraint firstAttribute="centerY" secondItem="Rzx-gW-iwT" secondAttribute="centerY" id="J3n-4B-wgd"/>
+                <constraint firstAttribute="trailing" secondItem="Rzx-gW-iwT" secondAttribute="trailing" constant="20" id="QJg-YD-sEm"/>
+                <constraint firstItem="Rzx-gW-iwT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="aI3-Nr-qch"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="fvA-ho-m11"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="40" id="o2v-3k-9qY"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

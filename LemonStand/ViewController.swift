@@ -19,9 +19,9 @@ class ViewController: UIViewController {
   
   @IBOutlet weak var imageViewLemon: UIImageView!
   @IBOutlet weak var imageViewIceCube: UIImageView!
+  @IBOutlet weak var imageViewLemonadeJar: UIImageView!
   
   @IBOutlet weak var labelInventoryWeatherDegrees: UILabel!
-  @IBOutlet weak var imageViewLemonadeJar: UIImageView!
   @IBOutlet weak var labelInventoryMoneyCount: UILabel!
   @IBOutlet weak var labelInventoryLemonCount: UILabel!
   @IBOutlet weak var labelInventoryIceCubeCount: UILabel!
