@@ -16,7 +16,9 @@
 		DC4734EF1B2C297300447B74 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4734EE1B2C297300447B74 /* Inventory.swift */; };
 		DC4734F31B2C2C6300447B74 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4734F21B2C2C6300447B74 /* Helpers.swift */; };
 		DC4734F51B2C553800447B74 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4734F41B2C553800447B74 /* Customer.swift */; };
-		DC4735351B2C9D9B00447B74 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4735341B2C9D9B00447B74 /* Product.swift */; };
+		DC4735351B2C9D9B00447B74 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4735341B2C9D9B00447B74 /* Item.swift */; };
+		DC92F2111B2EF97600468D75 /* Carrington.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC92F2101B2EF97600468D75 /* Carrington.ttf */; };
+		DC92F2131B2F9ADC00468D75 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92F2121B2F9ADC00468D75 /* ReportViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DC4734C91B2C202300447B74 /* LemonStand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonStand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4734C91B2C202300447B74 /* Lemonade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lemonade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4734CD1B2C202300447B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC4734CE1B2C202300447B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC4734D01B2C202300447B74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,7 +45,9 @@
 		DC4734EE1B2C297300447B74 /* Inventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
 		DC4734F21B2C2C6300447B74 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		DC4734F41B2C553800447B74 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
-		DC4735341B2C9D9B00447B74 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DC4735341B2C9D9B00447B74 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DC92F2101B2EF97600468D75 /* Carrington.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Carrington.ttf; sourceTree = "<group>"; };
+		DC92F2121B2F9ADC00468D75 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +80,7 @@
 		DC4734CA1B2C202300447B74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC4734C91B2C202300447B74 /* LemonStand.app */,
+				DC4734C91B2C202300447B74 /* Lemonade.app */,
 				DC4734DE1B2C202300447B74 /* LemonStandTests.xctest */,
 			);
 			name = Products;
@@ -85,13 +89,15 @@
 		DC4734CB1B2C202300447B74 /* LemonStand */ = {
 			isa = PBXGroup;
 			children = (
+				DC92F20F1B2EF91800468D75 /* Fonts */,
 				DC4734CE1B2C202300447B74 /* AppDelegate.swift */,
 				DC4734D01B2C202300447B74 /* ViewController.swift */,
 				DC4734F41B2C553800447B74 /* Customer.swift */,
 				DC4734F21B2C2C6300447B74 /* Helpers.swift */,
 				DC4734EE1B2C297300447B74 /* Inventory.swift */,
-				DC4735341B2C9D9B00447B74 /* Product.swift */,
+				DC4735341B2C9D9B00447B74 /* Item.swift */,
 				DC4734D21B2C202300447B74 /* Main.storyboard */,
+				DC92F2121B2F9ADC00468D75 /* ReportViewController.swift */,
 				DC4734D51B2C202300447B74 /* Images.xcassets */,
 				DC4734D71B2C202300447B74 /* LaunchScreen.xib */,
 				DC4734CC1B2C202300447B74 /* Supporting Files */,
@@ -124,6 +130,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DC92F20F1B2EF91800468D75 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DC92F2101B2EF97600468D75 /* Carrington.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,7 +155,7 @@
 			);
 			name = LemonStand;
 			productName = LemonStand;
-			productReference = DC4734C91B2C202300447B74 /* LemonStand.app */;
+			productReference = DC4734C91B2C202300447B74 /* Lemonade.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DC4734DD1B2C202300447B74 /* LemonStandTests */ = {
@@ -206,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4734D41B2C202300447B74 /* Main.storyboard in Resources */,
+				DC92F2111B2EF97600468D75 /* Carrington.ttf in Resources */,
 				DC4734D91B2C202300447B74 /* LaunchScreen.xib in Resources */,
 				DC4734D61B2C202300447B74 /* Images.xcassets in Resources */,
 			);
@@ -228,9 +243,10 @@
 				DC4734EF1B2C297300447B74 /* Inventory.swift in Sources */,
 				DC4734D11B2C202300447B74 /* ViewController.swift in Sources */,
 				DC4734F51B2C553800447B74 /* Customer.swift in Sources */,
-				DC4735351B2C9D9B00447B74 /* Product.swift in Sources */,
+				DC4735351B2C9D9B00447B74 /* Item.swift in Sources */,
 				DC4734F31B2C2C6300447B74 /* Helpers.swift in Sources */,
 				DC4734CF1B2C202300447B74 /* AppDelegate.swift in Sources */,
+				DC92F2131B2F9ADC00468D75 /* ReportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +378,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LemonStand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lemonade;
 			};
 			name = Debug;
 		};
@@ -373,7 +389,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LemonStand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lemonade;
 			};
 			name = Release;
 		};

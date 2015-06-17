@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DC4734C81B2C202300447B74"
-               BuildableName = "LemonStand.app"
+               BuildableName = "Lemonade.app"
                BlueprintName = "LemonStand"
                ReferencedContainer = "container:LemonStand.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DC4734C81B2C202300447B74"
-            BuildableName = "LemonStand.app"
+            BuildableName = "Lemonade.app"
             BlueprintName = "LemonStand"
             ReferencedContainer = "container:LemonStand.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DC4734C81B2C202300447B74"
-            BuildableName = "LemonStand.app"
+            BuildableName = "Lemonade.app"
             BlueprintName = "LemonStand"
             ReferencedContainer = "container:LemonStand.xcodeproj">
          </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DC4734C81B2C202300447B74"
-            BuildableName = "LemonStand.app"
+            BuildableName = "Lemonade.app"
             BlueprintName = "LemonStand"
             ReferencedContainer = "container:LemonStand.xcodeproj">
          </BuildableReference>

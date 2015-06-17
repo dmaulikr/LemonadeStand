@@ -12,10 +12,12 @@ class Customer {
   
   let name:String
   let preference:Double
+  var didBuy:Bool
   
   init () {
     self.name = Customer.getCustomerName()
     self.preference = Customer.getCustomerPreference()
+    self.didBuy = false
   }
   
   class func getCustomers(maxAmount:Int) -> [Customer] {
@@ -30,7 +32,8 @@ class Customer {
   }
   
   class func getCustomerPreference () -> Double {
-    return Double(arc4random_uniform(UInt32(101))) / 100
+    let preference = Double(arc4random_uniform(UInt32(101))) / 100
+    return preference
   }
   
   class func getCustomerName () -> String {
